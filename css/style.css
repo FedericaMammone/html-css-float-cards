@@ -5,7 +5,12 @@
 }
 
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Fredoka', sans-serif;
+}
+
+main {
+ 
+
 }
 
 .center-block {
@@ -22,11 +27,22 @@ clear: both;
 
 .col {
     float: left;
-    width: calc((100%/3) - 30px);
-    margin: 0 15px;
+    width: calc((100%/3) - 10px);
+    
     line-height: 30px;
-    height: 100px;
+    
     background-color: black;
+    
+    box-shadow:  3px  3px 3px #dedede,
+    -3px -3px 3px #dedede,
+     3px -3px 3px #dedede,
+    -3px  3px 3px #dedede;
+}
+
+
+.centrale {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 /* header */
@@ -34,6 +50,7 @@ clear: both;
 h1 {
     color: #E53170;
     margin-bottom: 40px;
+    font-family: 'Fredoka', sans-serif;
 }
 
 p {
@@ -56,8 +73,10 @@ span {
     color: white;
     float: left;
     margin-left: 10px;
-   
+    
 }
+
+
 
 a {
     float: left;
@@ -66,9 +85,7 @@ a {
     margin-left: 10px;
 }
 
-/* regole debug */
 
-.row {
-    border: solid 4px blue;
-}
+
+
 
