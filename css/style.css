@@ -14,7 +14,61 @@ body {
     text-align: center;
 }
 
+.row::after{
+content: "";
+display: table;
+clear: both;
+}
+
+.col {
+    float: left;
+    width: calc((100%/3) - 30px);
+    margin: 0 15px;
+    line-height: 30px;
+    height: 100px;
+    background-color: black;
+}
+
+/* header */
+
 h1 {
     color: #E53170;
+    margin-bottom: 40px;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+
+/* corpo principale */
+
+section {
     margin-bottom: 30px;
 }
+
+img {
+    height: 100px;
+    float: left;
+}
+
+span {
+    color: white;
+    float: left;
+    margin-left: 10px;
+   
+}
+
+a {
+    float: left;
+    text-decoration: none;
+    color: #34CCF2;
+    margin-left: 10px;
+}
+
+/* regole debug */
+
+.row {
+    border: solid 4px blue;
+}
+
